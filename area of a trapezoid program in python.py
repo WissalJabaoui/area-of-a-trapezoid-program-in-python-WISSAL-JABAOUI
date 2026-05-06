@@ -1,7 +1,7 @@
 # Area of a trapezoid
 # This program asks the user for the values of base1, base2 and the height.
 # It then calculates and displays the area.
-# Recreated for standard Python by [Your Name]
+# Recreated for standard Python by Wissal Jabaoui
 
 print("Let's calculate the area of a trapezoid!")
 
