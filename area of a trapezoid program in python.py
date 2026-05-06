@@ -1,9 +1,18 @@
-# Area of trapezoid.This program asks the user for the values of base1, base2 and the height. 
-# it then calculates and displays the area.
-# done by Wissal Jabaoui 
-game.splash("Let's calculate the area of a trapezoid!")
-base1 = game.ask_for_number("what is the length of base1 in (cm)? ")
-base2 = game.ask_for_number("what is the length of base2 in (cm)? ")
-height = game.ask_for_number("what is the height in (cm)? ")
+# Area of a trapezoid
+# This program asks the user for the values of base1, base2 and the height.
+# It then calculates and displays the area.
+# Recreated for standard Python by [Your Name]
+
+print("Let's calculate the area of a trapezoid!")
+
+# Get user input for the dimensions
+base1 = float(input("What is the length of base1 in (cm)? "))
+base2 = float(input("What is the length of base2 in (cm)? "))
+height = float(input("What is the height in (cm)? "))
+
+# Calculate the area
+# Formula: Area = (base1 + base2) / 2 * height
 area = (base1 + base2) / 2 * height
-game.splash("the area of a trapzoid is:" + str(area))
+
+# Display the result
+print("The area of a trapezoid is: " + str(area))
